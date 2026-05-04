@@ -6,6 +6,8 @@ $output = Join-Path $root "docs/submission.pdf"
 $pages = @(
   @(
     "Small Image Library Pure Next Submission",
+    "Live demo: https://small-image-library-pure-next-emhc.vercel.app/",
+    "GitHub repository: https://github.com/EugeneTolstikhin/SmallImageLibraryPureNext",
     "",
     "Architecture Overview",
     "Single Dockerized Next.js TypeScript application. The frontend lives in app/page.tsx,",
@@ -106,5 +108,11 @@ for ($i = 1; $i -lt $offsets.Count; $i++) {
 }
 $pdf += "trailer`n<< /Size $($objects.Count + 1) /Root 1 0 R >>`nstartxref`n$xrefOffset`n%%EOF`n"
 
-Set-Content -Path $output -Value $pdf -Encoding Ascii -NoNewline
-Write-Output $output
+try {
+  Set-Content -Path $output -Value $pdf -Encoding Ascii -NoNewline
+  Write-Output $output
+} catch {
+  $fallback = Join-Path $root "docs/submission.updated.pdf"
+  Set-Content -Path $fallback -Value $pdf -Encoding Ascii -NoNewline
+  Write-Output $fallback
+}

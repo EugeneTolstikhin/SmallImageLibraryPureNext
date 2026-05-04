@@ -1,5 +1,9 @@
 # Small Image Library Pure Next Submission
 
+Live demo: https://small-image-library-pure-next-emhc.vercel.app/
+
+GitHub repository: https://github.com/EugeneTolstikhin/SmallImageLibraryPureNext
+
 ## Architecture Overview
 
 Small Image Library Pure Next is implemented as a single Dockerized Next.js TypeScript application. The frontend lives in `app/page.tsx`, while the backend search layer is implemented with App Router route handlers under `app/api/*`.

@@ -2,6 +2,10 @@
 
 Minimal pure Next.js implementation of the IMAGO-style media metadata search challenge.
 
+Live demo: https://small-image-library-pure-next-emhc.vercel.app/
+
+GitHub repository: https://github.com/EugeneTolstikhin/SmallImageLibraryPureNext
+
 This version intentionally keeps the whole solution inside one Next.js TypeScript app:
 
 - Frontend: `app/page.tsx`

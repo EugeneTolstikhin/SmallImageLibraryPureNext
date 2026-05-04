@@ -9,7 +9,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> /Contents 4 0 R >>
 endobj
 4 0 obj
-<< /Length 1028 >>
+<< /Length 1223 >>
 stream
 BT
 /F1 20 Tf
@@ -17,6 +17,12 @@ BT
 /F1 14 Tf
 (Small Image Library Pure Next Submission) Tj
 0 -22 Td
+/F1 10 Tf
+(Live demo: https://small-image-library-pure-next-emhc.vercel.app/) Tj
+0 -14 Td
+/F1 10 Tf
+(GitHub repository: https://github.com/EugeneTolstikhin/SmallImageLibraryPureNext) Tj
+0 -14 Td
 0 -18 Td
 /F1 14 Tf
 (Architecture Overview) Tj
@@ -159,12 +165,12 @@ xref
 0000000058 00000 n 
 0000000129 00000 n 
 0000000304 00000 n 
-0000001384 00000 n 
-0000001559 00000 n 
-0000002745 00000 n 
-0000002920 00000 n 
+0000001579 00000 n 
+0000001754 00000 n 
+0000002940 00000 n 
+0000003115 00000 n 
 trailer
 << /Size 9 /Root 1 0 R >>
 startxref
-4203
+4398
 %%EOF
