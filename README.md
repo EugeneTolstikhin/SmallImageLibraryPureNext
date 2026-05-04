@@ -25,6 +25,8 @@ Open:
 - Facets API: `http://localhost:3010/api/facets`
 - Analytics API: `http://localhost:3010/api/analytics`
 
+For hosted deployments such as Vercel, do not set `NEXT_PUBLIC_API_BASE_URL`; the browser calls the same origin with relative `/api/*` URLs. The Docker Compose file sets it only for the local container port mapping.
+
 ## API
 
 `GET /api/search`
